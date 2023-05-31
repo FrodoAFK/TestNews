@@ -1,0 +1,90 @@
+li {
+    display: inline-block;
+    font-size: 24px;
+}
+
+ul {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+p1 {
+    background-color: #6d0d3a;
+    color: #fff;
+}
+
+p2 {
+    font-size: 13px;
+}
+
+p3{
+    font-size: 15px;
+}
+
+p4{
+    font-weight:800;
+}
+
+hr {
+	border-top: 2px dotted #6d0d3a;
+}
+
+
+body {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    background-color: #fff;
+    outline: 2px solid rgb(202, 204, 201);
+    overflow: auto;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#idNews {
+    font-size: 18px;
+}
+
+#idPage {
+    width: 30px;
+    height: 15px;
+    display: inline-block;
+    outline: 1px solid rgb(202, 204, 201);
+    background-color: rgb(237, 239, 235);
+    font-size: 12px;
+    margin-right: 3px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+
+#idPageActive{
+    width: 30px;
+    height: 15px;
+    display: inline-block;
+    outline: 1px solid #caccc9;
+    background-color: #6d0d3a;
+    font-size: 12px;
+    margin-right: 3px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#idPage:hover{
+    color: #fff;
+    background-color: #6d0d3a;
+}
+
+html {
+    background-color: rgb(237, 239, 235);
+}
