@@ -28,7 +28,7 @@ include "public_html/databaseconnect.php";
                         while ($news = mysqli_fetch_array($res_data)) {
                         ?>
                             <p1><?php echo gmdate("d.m.Y", $news['idate']) ?></p1>
-                            <li><a id="idNews" , href="/news.php"><?php echo $news['title'] ?></a></li>
+                            <li><a id="idNews" , href="/news.php?id=<?php echo $news['id'] ?>"><?php echo $news['title'] ?></a></li>
                             <br>
                             <p2><?php echo $news['announce'] ?></p2>
                             <br>

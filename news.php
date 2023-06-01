@@ -15,15 +15,19 @@ include "public_html/databaseconnect.php";
 </head>
 
 <section>
+
     <body>
         <div class="container">
             <div class="row">
                 <div class="menu">
                     <ul>
-                        <?php $news = mysqli_fetch_array($res_data) ?>
-                        <li><?php echo $news['title'] ?></li>
+                        <?php
+                        $idNews = $_GET['id']-1;
+                        $oneNews = $data_news[$idNews];
+                        ?>
+                        <li><?php echo $oneNews['title'] ?></li>
                         <hr>
-                        <p3><?php echo $news['content'] ?></p3>
+                        <p3><?php echo $oneNews['content'] ?></p3>
                         <hr>
                         <li><a id="idNews" , href="/index.php">Все новости>></a></li>
                     </ul>
